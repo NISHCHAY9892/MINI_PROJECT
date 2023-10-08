@@ -5,6 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=fire">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   <style>
@@ -17,20 +18,41 @@
     /* Remove the jumbotron's default bottom margin */ 
      .jumbotron {
       margin-bottom: 0;
+      background-color: rgb(0, 0, 0);
     }
    
     /* Add a gray background color and some padding to the footer */
     footer {
-      background-color: #f2f2f2;
+      background-color: #b9b7b7;
       padding: 25px;
     }
+    body {font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(236, 229, 229);}
+* {box-sizing: border-box;}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #484545;
+}
+
+/* Add a background color when the inputs get focus */
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #fdfbfb;
+  outline: none;
+}
+
   </style>
 </head>
 <body>
 
 <div class="jumbotron">
   <div class="container text-center">
-    <h1>SPORTSPOT</h1>      
+    <h1 class="font-effect-fire"> <u>SPORTSPOT</u></h1>
   </div>
 </div>
 
@@ -49,7 +71,7 @@
         <li><a href="product.html">Products</a></li>
         <li><a href="#">Deals</a></li>
         <li><a href="#">Stores</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="Contac.html">Contact</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#"><span class="glyphicon glyphicon-user"></span> Your Account</a></li>
@@ -58,28 +80,28 @@
     </div>
   </div>
 </nav>
-
+    <center> <h1>TODAY'S DEALS</h1></center> <br>
 <div class="container">    
   <div class="row">
     <div class="col-sm-4">
       <div class="panel panel-primary">
-        <div class="panel-heading">CR_CART</div>
+        <div class="panel-heading">CR7 EDITION</div>
         <div class="panel-body"><img src="a.webp" class="img-responsive" style="width:100%" alt="Image"></div>
-        <div class="panel-footer">Get Your Favourite Ronaldo's Merch</div>
+        <div class="panel-footer"> <a href="CR7.html"><b> Your Favourite Ronaldo's Merch </b> </a></div>
       </div>
     </div>
     <div class="col-sm-4"> 
-      <div class="panel panel-danger">
-        <div class="panel-heading">MESSI_RUSH</div>
+      <div class="panel panel-primary">
+        <div class="panel-heading">MESSI EDITION</div>
         <div class="panel-body"><img src="2.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
-        <div class="panel-footer">Get Your Favourite Messi's Merch</div>
+        <div class="panel-footer"> <a href="MESSI.html"><b> Your Favourite Messi's Merch</b> </a></div>
       </div>
     </div>
     <div class="col-sm-4"> 
-      <div class="panel panel-success">
-        <div class="panel-heading">RAMOS_DASH</div>
-        <div class="panel-body"><img src="3.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
-        <div class="panel-footer">Get Your Favourite sergio's Merch</div>
+      <div class="panel panel-primary">
+        <div class="panel-heading">RAMOS EDITION</div>
+        <div class="panel-body"><img src="R.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
+        <div class="panel-footer"> <a href="RAMOS.html"><b> Your Favourite sergio's Merch </b> </a></div>
       </div>
     </div>
   </div>
@@ -89,33 +111,32 @@
   <div class="row">
     <div class="col-sm-4">
       <div class="panel panel-primary">
-        <div class="panel-heading">NEYMAR'S_TIME</div>
+        <div class="panel-heading">NEYMAR'S EDITION</div>
         <div class="panel-body"><img src="d.jpeg" class="img-responsive" style="width:100%" alt="Image"></div>
-        <div class="panel-footer">Get Your Favourite Neymar's Merch</div>
+        <div class="panel-footer"> <a href="NEYMAR.html"><b> Your Favourite Neymar's Merch </b> </a></div>
       </div>
     </div>
     <div class="col-sm-4"> 
       <div class="panel panel-primary">
-        <div class="panel-heading">KANTE'S_THANK U</div>
+        <div class="panel-heading">KANTE'S EDITION</div>
         <div class="panel-body"><img src="b.webp" class="img-responsive" style="width:100%" alt="Image"></div>
-        <div class="panel-footer">Get Your Favourite Kante's Merch</div>
+        <div class="panel-footer"> <a href="KANTE.html"><b> Your Favourite Kante's Merch </b></a></div>
       </div>
     </div>
     <div class="col-sm-4"> 
       <div class="panel panel-primary">
-        <div class="panel-heading">CHHETRI'S_RISE</div>
+        <div class="panel-heading">CHHETRI'S EDITION</div>
         <div class="panel-body"><img src="6.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
-        <div class="panel-footer">Get Your Favourite Sunil's Merch</div>
+        <div class="panel-footer"> <a href="CHHETRI.html"><b> Your Favourite Sunil's Merch </b> </a></div>
       </div>
     </div>
   </div>
 </div><br><br>
 
 <footer class="container-fluid text-center">
-  <p>Online Store Copyright</p>  
-  <form class="form-inline">Get deals:
+  <form class="form-inline">LOGIN ID:
     <input type="email" class="form-control" size="50" placeholder="Email Address">
-    <button type="button" class="btn btn-danger">Sign Up</button>
+    <button type="button" class="btn btn-danger">Login</button> <br>
   </form>
 </footer>
 
