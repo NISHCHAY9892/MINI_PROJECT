@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=fire">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<style>
+  /* Remove the navbar's default rounded borders and increase the bottom margin */ 
+.navbar {
+  margin-bottom: 50px;
+  border-radius: 0;
+}
+
+/* Remove the jumbotron's default bottom margin */ 
+ .jumbotron {
+  margin-bottom: 0;
+  background-color: rgb(0, 0, 0);
+}
+
+/* Add a gray background color and some padding to the footer */
+footer {
+  background-color: #b9b7b7;
+  padding: 25px;
+}
+body {font-family: Arial, Helvetica, sans-serif;
+background-color: rgb(236, 229, 229);}
+* {box-sizing: border-box;}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+width: 100%;
+padding: 15px;
+margin: 5px 0 22px 0;
+display: inline-block;
+border: none;
+background: #484545;
+}
+
+/* Add a background color when the inputs get focus */
+input[type=text]:focus, input[type=password]:focus {
+background-color: #fdfbfb;
+outline: none;
+}
+
+    
+.Row1{
+    display: flex;
+  }
+  .Row2{
+    display: flex;
+  }
+  .Row3{
+    display: flex;
+  }
+  .card {
+    align-items:first baseline;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+  }
+  
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
+</style>
+<body>
+
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+        </button>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="index.html">Home</a></li>
+          <li><a href="product.html">Products</a></li>
+          <li><a href="#">Deals</a></li>
+          <li><a href="#">Stores</a></li>
+          <li><a href="Contac.html">Contact</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#"><span class="glyphicon glyphicon-user"></span> Your Account</a></li>
+          <li><a href="#"><span class="glyphicon glyphicon-shopping-cart"></span> Cart</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <div class="Row1">
+
+<div class="card" >
+  <img src="product1.jpeg" alt="Denim Jeans" style="width:100%">
+  <h1>NIKE MERCURAL</h1>
+  <p class="price">$19.99</p>
+  <p></p>
+  <p><button>Add to Cart</button></p>
+</div>
+
+
+<div class="card">
+  <img src="product1.1.jpg" alt="Denim Jeans" style="width:95%">
+  <h1>NEYMAR JERSEY</h1>
+  <p class="price">$19.99</p>
+<p></p>
+  <p><button>Add to Cart</button></p>
+</div>
+
+<div class="card">
+  <img src="product1.2.webp" alt="Denim Jeans" style="width:100%">
+  <h1>NIKE FOOTBALL</h1>
+  <p class="price">$19.99</p>
+  <p></p>
+  <p><button>Add to Cart</button></p>
+</div>
+
+<div class="card">
+  <img src="product1.3.jpeg" alt="Denim Jeans" style="width:95%">
+  <h1>FOOTBALL GLOVES</h1>
+  <p class="price">$19.99</p>
+  <p></p>
+  <p><button>Add to Cart</button></p>
+</div>
+ </div>
+
+<div class="Row2">
+
+<div class="card">
+  <img src="product2.webp" alt="Denim Jeans" style="width:100%">
+  <h1>NIKE MERCURAL</h1>
+  <p class="price">$19.99</p>
+  <p></p>
+  <p><button>Add to Cart</button></p>
+</div>
+
+<div class="card">
+  <img src="product4.1.webp" alt="Denim Jeans" style="width:100%">
+  <h1>FOOTBALL JERSEY</h1>
+  <p class="price">$19.99</p>
+  <p></p>
+  <p><button>Add to Cart</button></p>
+</div>
+
+<div class="card">
+  <img src="product4.3.jpeg" alt="Denim Jeans" style="width:100%">
+  <h1>FOOTBALL CONES</h1>
+  <p class="price">$19.99</p>
+  <p></p>
+  <p><button>Add to Cart</button></p>
+</div>
+
+<div class="card">
+  <img src="product2.3.jpeg" alt="Denim Jeans" style="width:100%">
+  <h1>ADIDAS SHINPADS</h1>
+  <p class="price">$19.99</p>
+  <p></p>
+  <p><button>Add to Cart</button></p>
+</div>
+</div>
+
+<div class="Row3">
+<div class="card">
+  <img src="product4.jpg" alt="Denim Jeans" style="width:100%">
+  <h1>ADIDAS STUDS</h1>
+  <p class="price">$19.99</p>
+  <p></p>
+  <p><button>Add to Cart</button></p>
+</div>
+
+<div class="card">
+  <img src="product3.4.jpg" alt="Denim Jeans" style="width:100%">
+  <h1>STUDS</h1>
+  <p class="price">$19.99</p>
+  <p></p>
+  <p><button>Add to Cart</button></p>
+</div>
+
+<div class="card">
+  <img src="product3.2.jpg" alt="Denim Jeans" style="width:100%">
+  <h1>FOOTBALL</h1>
+  <p class="price">$19.99</p>
+  <p></p>
+  <p><button>Add to Cart</button></p>
+</div>
+
+<div class="card">
+  <img src="product3.3.webp" alt="Denim Jeans" style="width:100%">
+  <h1>STOKINGS</h1>
+  <p class="price">$19.99</p>
+  <p></p>
+  <p><button>Add to Cart</button></p>
+</div>
+</div>
+</body>
+</html>
